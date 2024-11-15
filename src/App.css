@@ -1,0 +1,26 @@
+/* https://jsonplaceholder.typicode.com/posts */
+
+.header {
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+.header1 {
+    width: 40%;
+    font-size: 40px;
+}
+.header2 {
+    width: 50%;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.btn {
+    font-size: 30px;
+    margin-left: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.span1{
+    font-size: 60px;
+    color: rgb(245, 193, 117);
+}
