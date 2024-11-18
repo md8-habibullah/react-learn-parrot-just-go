@@ -24,3 +24,10 @@
     font-size: 60px;
     color: rgb(245, 193, 117);
 }
+
+.post {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 15px solid brown;    
+    gap: 15px;
+}

@@ -17,17 +17,10 @@ export default function Posts() {
 
 
   return (
-    <div>
-      <h2>I am posts</h2>
-
-
+    <div className="post">
       {
-        posts.map((postsingle) => <pre>ID: {postsingle.id}<br></br>
-        Title: {postsingle.title} <br></br> Body: {postsingle.body} <hr /></pre>
-        
-
+        posts.map((postsingle) => <Post key={postsingle.id} postsingle={postsingle} ></Post>
         )
-      
       }
     </div>
   )

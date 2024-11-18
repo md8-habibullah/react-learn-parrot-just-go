@@ -1,6 +1,6 @@
 import { useState } from "react"
 export default function Header() {
-    const [numCount, setnumCount] = useState(0)
+    const [numCount, setnumCount] = useState(7)
     const handleAdd = () => {
       const newNumCount = numCount + 1
       setnumCount(newNumCount)
